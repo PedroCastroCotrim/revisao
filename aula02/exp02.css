@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    background-color: aqua;
+}
+
+p{
+    background-color: blueviolet;
+}
+
+.estilo{
+    background-color: yellow;
+
+}
+
+.conteudo{
+    background-color: blue;
+    height: 300px;
+
+}
+
+.conteudo p{
+    background-color: red;
+}
+
+.conteudo #titulo{
+    background-color: lightblue;
+}
+
+.conteudo #txt{
+    background-color: bisque;
+    font-size: 40px;
+    height: 70px;
+
+}
+
+#titulo{
+    background-color: green;
+}
