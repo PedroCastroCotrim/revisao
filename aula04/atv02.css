@@ -1,0 +1,29 @@
+#box1{
+    height: 400px;
+    background-color:  rgb(139, 170, 187);
+}
+
+#box1 p{
+    margin-left: 550px;
+    padding-top: 190px;
+}
+
+#box11{
+    height: 300px;
+    width: 300px;
+    background-image: url(Storm.jpg);
+    margin-left: 200px;
+    margin-top: -350px;
+    border: solid black 2px;
+    border-radius: 20px;
+}
+
+#box12{
+    height: 300px;
+    width: 300px;
+    background-image: url(Storm.jpg);
+    margin-top: -300px;
+    margin-left: 900px;
+    border: solid black 2px;
+    border-radius: 20px;
+}
