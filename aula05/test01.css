@@ -1,0 +1,24 @@
+.grid-conteiner{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    background-color: lightblue;
+    padding: 50px;
+}
+
+.grid-conteiner > div {
+    background-color: aquamarine;
+    border: 2px black solid;
+    height: 200px;
+    text-align: center;
+}
+
+.grid-item-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid-item-7{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
