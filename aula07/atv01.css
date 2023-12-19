@@ -1,0 +1,19 @@
+.box-conteiner{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: lightblue;
+    padding: 50px;
+}
+
+.box-conteiner > div {
+    background-color: aquamarine;
+    border: 2px black solid;
+    text-align: center;
+    font-size: 50px;
+}
+
+.box-content-8{
+    grid-area: 1 / 2 / 5 / 6;
+    background-color: white;
+}

@@ -1,0 +1,72 @@
+body{
+    background-color: aliceblue;
+}
+
+.box{
+    grid-template-areas: "topo topo topo"
+                         "CE CP CD"
+                         "rodape rodape rodape";
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 25% 50% 25%;
+    display: grid;
+    height: 1000px;
+    gap: 10px;
+}
+
+.topo{
+    display: grid;
+    grid-template-areas: "t1 t2 t3 t4";
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-area: topo;
+    background-color: rgb(230, 197, 173);
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.topo > div{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 50px;
+    margin: 5px;
+}
+
+.CE{
+    grid-area: CE;
+    background-color: rgb(255, 127, 174);
+    border: 2px solid black;
+}
+
+.CP{
+    grid-area: CP;
+    background-color: rgb(159, 255, 127);
+    border: 2px solid black;
+}
+
+.CD{
+    grid-template-areas: "CD1 CD2"
+                         "CD3 CD4"
+                         "CD5 CD6"
+                         "CD7 CD8";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 30% 30% 20%;
+    display: grid;
+    grid-area: CD;
+    background-color: rgb(216, 161, 161);
+    border: 2px solid black;
+    padding: 5px;
+
+}
+
+.CD > div {
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+    border: 2px solid black;
+
+}
+
+.rodape{
+    grid-area: rodape;
+    background-color: rgb(203, 104, 104);
+    border: 2px solid black;
+}
