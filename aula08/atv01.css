@@ -1,0 +1,82 @@
+body{
+    background-color: white;
+}
+
+.box{
+    grid-template-areas: "header header"
+                         "main lateral"
+                         "footer footer";
+    grid-template-columns:  450px 150px;
+    grid-template-rows: 100px 1fr 100px;
+    display: grid;
+    gap: 10px;
+    height: 1000px;
+}
+
+.header{
+    background-color: rgb(218, 179, 255);
+    grid-area: header;
+    display: flex;
+}
+
+.lateral{
+    background-color: rgb(124, 124, 255);
+    grid-area: lateral;
+    display: flex;
+}
+
+.main{
+    background-color: rgb(255, 91, 91);
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer{
+    background-color: rgb(104, 255, 255);
+    grid-area: footer;
+    display: flex;
+}
+
+.c1 {
+    height: 33.3%;
+    background-color: skyblue;
+    width: 100%;
+    text-align: center;
+}
+
+.c2 {
+    height: 33.3%;
+    background-color: rgb(163, 235, 135);
+    width: 100%;
+    text-align: center;
+}
+
+.c3 {
+    height: 33.3%;
+    background-color: rgb(255, 172, 55);
+    width: 100%;
+    text-align: center;
+}
+
+.p1 {
+    height: 100px;
+    background-color: rgb(179, 230, 101);
+    width: 25%;    
+    text-align: center;
+}
+
+.p2 {
+    height: 100px;
+    background-color: rgb(145, 201, 145);
+    width: 50%;    
+    text-align: center;
+}
+
+.p3 {
+    height: 100px;
+    background-color: rgb(179, 230, 101);
+    width: 25%;
+    text-align: center;
+}
